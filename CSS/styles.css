@@ -28,6 +28,11 @@ body {
   font-family: "Roboto", Helvetica, sans-serif;
 }
 
+.container {
+  width: 60%;
+  margin: auto;
+}
+
 /* ---------------------------------------------------------------------- */
 .sidebar {
   position: fixed;
