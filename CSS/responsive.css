@@ -1,0 +1,63 @@
+@media (max-width: 1620px) {
+  .sidebar {
+    position: fixed;
+    top: 6.7rem;
+    left: 10rem;
+
+    width: 60px;
+    background-color: #ffc107;
+  }
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    left: 1rem;
+  }
+
+  #main-section .container {
+    max-width: 80%;
+  }
+  .main {
+    display: block;
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  /* https://www.geeksforgeeks.org/how-to-use-line-break-in-css/ */
+  .lol::after,
+  .try::after {
+    content: "\A";
+    white-space: pre;
+    display: block;
+  }
+
+  .try {
+    font-size: 1.25rem;
+
+    color: #ffc107;
+    background: #1f1e24;
+  }
+  .lol {
+    background: #ffc107;
+    color: black;
+    padding: 1px 1px;
+    margin-bottom: 0.5rem;
+  }
+
+  .work-item h3 {
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .project-card {
+    margin-bottom: 1rem;
+  }
+
+  #recommendations .flex-items {
+    display: block;
+  }
+}
